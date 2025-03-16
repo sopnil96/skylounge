@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MYself</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>About Myself</h1>
+    <P>This is Istiak Amamed Sopnil.I am studying in ulsan university.My major is IT and I am from Bangladesh</P>
+    <img src="/sss.jpg" alt="">
+    <button onclick="changeBackground()">Change Background</button>
+    
+</body>
+<script>
+    function changeBackground() {
+        const colors = ['#FF5733', '#33FF57', '#3357FF', '#FF33A1', '#A133FF', '#33FFF3'];
+        document.body.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+    }
+</script>
+</html>
